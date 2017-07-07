@@ -14,6 +14,7 @@
 		5511170F1F0F6C0A0029912A /* pullToRefreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5511170E1F0F6C0A0029912A /* pullToRefreshTests.swift */; };
 		5511171A1F0F6C0A0029912A /* pullToRefreshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551117191F0F6C0A0029912A /* pullToRefreshUITests.swift */; };
 		551117281F0F6D480029912A /* RefreashingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551117271F0F6D480029912A /* RefreashingTableViewController.swift */; };
+		5511172A1F0F74CB0029912A /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551117291F0F74CB0029912A /* RefreshView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		551117191F0F6C0A0029912A /* pullToRefreshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pullToRefreshUITests.swift; sourceTree = "<group>"; };
 		5511171B1F0F6C0A0029912A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		551117271F0F6D480029912A /* RefreashingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreashingTableViewController.swift; sourceTree = "<group>"; };
+		551117291F0F74CB0029912A /* RefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				551116F91F0F6C0A0029912A /* AppDelegate.swift */,
 				551117271F0F6D480029912A /* RefreashingTableViewController.swift */,
 				551116FD1F0F6C0A0029912A /* Main.storyboard */,
+				551117291F0F74CB0029912A /* RefreshView.swift */,
 				551117001F0F6C0A0029912A /* Assets.xcassets */,
 				551117021F0F6C0A0029912A /* LaunchScreen.storyboard */,
 				551117051F0F6C0A0029912A /* Info.plist */,
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5511172A1F0F74CB0029912A /* RefreshView.swift in Sources */,
 				551117281F0F6D480029912A /* RefreashingTableViewController.swift in Sources */,
 				551116FA1F0F6C0A0029912A /* AppDelegate.swift in Sources */,
 			);

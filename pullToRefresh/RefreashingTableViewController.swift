@@ -8,12 +8,25 @@
 
 import UIKit
 
+private let kRef:CGFloat = 200
+
 class RefreashingTableViewController: UITableViewController {
+    
+    private var refreshVIew:RefreshView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        refreshVIew = RefreshView(frame: CGRect(x: 0, y: -kRef, width: CGRectGetWidth(view.bounds), height: kRef), scrollView:tableView)
+        view.insertSubview(refreshVIew, atIndex: 0)
+        
     }
 
+    override func scrollViewDidScroll(scrollView: UIScrollView) {
+        refreshVIew.scrollViewDidScroll(scrollView)
+    }
+    
+    
   
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
